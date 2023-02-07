@@ -1,0 +1,21 @@
+/** Globals */
+
+.telephone-number {
+  font-size: 1rem;
+  margin: 0 0 0 auto;
+  display: flex;
+  text-align: right;
+  float: right;
+}
+
+.calendly-badge-widget {
+  right: auto !important;
+  left: 20px !important;
+}
+
+.calendly-badge-widget {
+  .calendly-badge-content {
+    height: 60px !important;
+    border-radius: 5px !important;
+  }
+}

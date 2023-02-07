@@ -1,0 +1,6 @@
+# Twenty One Config File
+
+name: "Twenty One Child"
+author: "ParsonsHosting"
+config:
+  parent: twenty-one

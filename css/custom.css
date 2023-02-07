@@ -1,0 +1,88 @@
+/*!
+ * WHMCS twentyone-child Theme
+ * custom Stylesheet
+ * Copyright (c) 2020 WHMCS Limited
+ * https://www.whmcs.com/license/
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Karla&display=swap');
+
+p {
+    font-size: 1rem;
+    font-family: 'Karla', sans-serif;
+}
+h1,h2,h3,h4,h5 {
+    font-family: 'Barlow', sans-serif;
+}
+header.header .logo-img{
+    max-width:432px;max-height: 122px;}
+.telephone-number {
+    font-size: 1rem;
+    margin: 0 0 0 auto;
+    display: flex;
+    text-align: right;
+    float: right;}
+footer.footer {
+    background-color: #000000 !important;
+}
+.calendly-badge-widget {
+    right: auto !important;
+    left: 20px !important;
+}
+.calendly-badge-widget .calendly-badge-content {
+    height: 60px !important;
+    border-radius: 5px !important;
+}
+#sitepaad-header h1 {
+    display: flex;
+}
+.h1-img {
+    margin-left: 10px;
+}
+.sitepad-desc .sitepad-logo {
+    float: left;
+    margin-right: 5px;
+}
+.product-desc p {
+    font-size: 1rem;
+}
+
+div#order-comparison-global {
+    padding: 0 0 0 0;
+    margin: 0 0 30px 0;
+    height: auto;
+    width: 100%;
+    line-height: 18px;
+    font-size: 14px;
+    color: #666666;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+#order-comparison-global .includes-features .head-area span {
+    padding: 0 20px;
+    margin: 0 0 0 0;
+    display: inline-table;
+}
+
+#order-comparison-global .includes-features ul.list-features {
+    padding: 20px 0 0 0;
+    margin: 0 0 0 0;
+    list-style: none;
+}
+
+#order-comparison-global .includes-features ul.list-features li {
+    padding: 0 0 0 22px;
+    margin: 5px 0;
+    width: 33%;
+    display: inline-table;
+    background: url(../../orderforms/sitepad_cart/img/tick.png) no-repeat;
+}
+
+#order-comparison-global .includes-features .head-area {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    text-align: center;
+    background: url(../../orderforms/sitepad_cart/img/head-bg.png) no-repeat center center;
+    background-size: 100% auto;
+}

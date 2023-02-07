@@ -1,0 +1,21 @@
+/*!
+ * WHMCS twentyone-child Theme
+ * custom Stylesheet
+ * Copyright (c) 2020 WHMCS Limited
+ * https://www.whmcs.com/license/
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Karla&display=swap');
+
+@import "supports/variables/colors";
+@import "supports/buttons";
+
+@import "supports/globals";
+@import "supports/typography";
+@import "supports/front-page";
+
+@import "supports/orders/sitepad";
+@import "supports/orders/features";
+
+@import "supports/header";
+@import "supports/footer";
