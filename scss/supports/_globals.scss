@@ -28,3 +28,59 @@
 .section-wrap {
   margin: 5.618em auto 0 auto;
 }
+
+.dedicated-ip {
+  margin-bottom: 1em;
+  padding: 1em .5em !important;
+  height: 74px;
+  width: 100% !important;
+  img {
+    width: 100% !important;
+  }
+}
+
+.quic-cloud-logo {
+  margin-bottom: 1em;
+  background-color: #004262 !important;
+  padding: 1em .5em !important;
+  height: 74px;
+  width: 100% !important;
+  img {
+    width: 100% !important;
+  }
+}
+
+.litespeed-logo {
+  margin-bottom: 1em;
+  padding: 1em .5em !important;
+  height: 74px;
+  width: 100% !important;
+  img {
+    width: 100% !important;
+  }
+}
+
+.cpanel-logo {
+  margin-bottom: 1em;
+  padding: 1em .5em !important;
+  height: 74px;
+  width: 100% !important;
+  img {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .dedicated-ip {
+    height: auto;
+  }
+  .cpanel-logo {
+    height: auto;
+  }
+  .litespeed-logo {
+    height: auto;
+  }
+  .quic-cloud-logo {
+    height: auto;
+  }
+}

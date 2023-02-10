@@ -1,4 +1,57 @@
 {if !empty($productGroups) || $registerdomainenabled || $transferdomainenabled}
+    <div id="front-page-featured" class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="dedicated-ip">
+                            <img src="/images/img/dedicated-ip-logo.png" alt="IP Address Icon">
+                        </div>
+                        <p><strong>Optional dedicated IP address</strong></p>
+                        <p>Need a dedicated IP for email? No problem. We have a selection of options from
+                            Free to
+                            $200.00 per year.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="quic-cloud-logo">
+                        <img src="/images/img/quic-cloud-logo-dark.svg" alt="QUIC Cloud Logo">
+                        </div>
+                        <p>QUIC.cloud CDN is the fastest solution for speed optimization of WordPress sites.
+                        Available with all hosting packages. Offers cutting edge HTTP/3 and elevated security.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="litespeed-logo">
+                            <img src="/images/img/litespeed-logo.png" alt="LiteSpeed Web Server Logo">
+                        </div>
+                        <p>Twice the speed, twice the performance. Concurrent connections are not a problem. Our
+                            LiteSpeed architecture accelerates your website improving user experience and saving
+                            valuable developer time.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="cpanel-logo">
+                            <img src="/images/img/cPanel_orange_RGB.png" alt="cPanel logo">
+                        </div>
+                        <p>User-friendly interface. Highly compatible. A proven and professional user interface
+                            allowing you to manage your data, files, email. Offers automatic installation of software
+                            including WordPress.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <h2 class="text-center m-4">Browse our Products/Services</h2>
 
     <div class="card-columns home">
