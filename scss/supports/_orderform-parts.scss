@@ -1,0 +1,28 @@
+/** Order Form Parts */
+
+.features-benefits {
+  .row {
+    .card-cont {
+      .card {
+        background-color: transparent;
+        border: none;
+        .card-body {
+          padding: 0 0 0 2.5em !important;
+          text-align: left;
+          position: relative;
+          .fas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 1.4rem;
+            color: #5686E8;
+          }
+          h5 {
+            font-weight: 900;
+            margin: 0 !important;
+          }
+        }
+      }
+    }
+  }
+}
