@@ -8,5 +8,5 @@
     {/foreach}
 </ol>
 <span class="telephone-number">
-<a href="https://calendly.com/parsonshosting/emergency-support">EMERGENCY support: Start Here. 24/7!</a>
+<a href="tel:15307108726">CALL US: (530) 710-8726</a>
 </span>

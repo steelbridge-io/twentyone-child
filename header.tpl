@@ -25,18 +25,19 @@
         <!-- End Facebook Pixel Code -->
 
     {/literal}
+
 </head>
 <body class="primary-bg-color" data-phone-cc-input="{$phoneNumberInputStyle}">
-<!-- Start of parsonshosting Zendesk Widget script -->
-<!--<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=465149fd-880a-4ebc-97a6-ff9b5f533866"> </script>-->
-
-<!-- Calendly badge widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/d/d7g-sqd-ffc?primary_color=1a1a1a', text: 'Find Out How To Reach Us Today!', color: '#1a1a1a', textColor: '#ffffff', branding: true }); }</script>
-<!-- Calendly badge widget end -->
 
 {$headeroutput}
+
+<!-- Calendly badge widget begin -->
+{literal}
+    <script async data-cfasync="false" src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <script async data-cfasync="false" type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url:
+                'https://calendly.com/parsonshosting/sales-and-product-information', text: 'Schedule A Call Or Zoom!', color: '#5c7de9', textColor: '#ffffff', branding: false }); }</script>
+{/literal}
+<!-- Calendly badge widget end -->
 
 <header id="header" class="header">
     {if $loggedin}
