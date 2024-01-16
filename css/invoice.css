@@ -1,0 +1,43 @@
+
+.hidden-print {
+    margin-bottom: 5em;
+}
+
+.card-title {
+    margin-bottom: 1.618em;
+    background-color: #f5f5f5;
+    padding: 1em 1.618em;
+    font-size: 2rem;
+}
+
+.card-text {
+    margin-bottom: 1.618em;
+    padding: 0 1.618em;
+    font-size: 1.6rem;
+}
+
+@media (min-width: 992px) {
+    .container-fluid.invoice-container {
+        padding: 3em;
+        width: 70%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .container-fluid.invoice-container {
+        padding: 5.618em 1.618em;
+        width: 95%;
+    }
+    img {
+        width: 30%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    img {
+        width: 30%;
+        display: block;
+        margin: 1.618em auto 0 auto;
+    }
+}
+

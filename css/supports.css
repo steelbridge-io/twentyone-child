@@ -6,7 +6,8 @@
  * Author: Chris Parsons
  */
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Karla&display=swap");
-/** Colors */ /** Buttons */
+/** Colors */
+/** Buttons */
 .btn-outline-white {
   color: #f5f5f5;
   border-color: #f5f5f5;
@@ -161,15 +162,6 @@ h5 {
   margin-left: 10px;
 }
 
-.card-columns.home .card:nth-child(5) .card-body {
-  background-color: #E61F53;
-  color: #f5f5f5;
-}
-.card-columns.home .card:nth-child(5) .card-body a.btn.btn-block.btn-outline-primary {
-  color: #f5f5f5;
-  border-color: #f5f5f5;
-}
-
 #front-page-featured .card {
   background-color: transparent !important;
   border: none;
@@ -242,9 +234,22 @@ div#order-comparison-global {
 }
 
 /** Header */
-header.header .logo-img {
-  max-width: 432px;
-  max-height: 122px;
+@media (min-width: 992px) {
+  header.header .logo-img {
+    max-width: 100%;
+    max-height: 50px;
+    width: auto;
+    vertical-align: middle;
+  }
+}
+/* Navigation **/
+header.header .main-navbar-wrapper .navbar-collapse {
+  padding: 0.5rem 0rem;
+}
+
+.list-group.collapsable-card-body {
+  position: relative;
+  z-index: 1;
 }
 
 /** Footer */

@@ -1,8 +1,12 @@
 /** Header */
-
-header.header {
-  .logo-img {
-    max-width: 432px;
-    max-height: 122px;
+@media (min-width: 992px) {
+  header.header {
+    .logo-img {
+      max-width: 100%;
+      max-height: 50px;
+      width: auto;
+      vertical-align: middle;
+    }
   }
 }
+

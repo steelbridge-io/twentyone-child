@@ -32,11 +32,11 @@
 {$headeroutput}
 
 <!-- Calendly badge widget begin -->
-{literal}
-    <script async data-cfasync="false" src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script async data-cfasync="false" src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
     <script async data-cfasync="false" type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url:
                 'https://calendly.com/parsonshosting/sales-and-product-information', text: 'Schedule A Call Or Zoom!', color: '#5c7de9', textColor: '#ffffff', branding: false }); }</script>
-{/literal}
+
 <!-- Calendly badge widget end -->
 
 <header id="header" class="header">

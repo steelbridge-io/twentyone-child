@@ -10,21 +10,6 @@
   margin-left: 10px;
 }
 
-.card-columns {
-  &.home {
-    .card:nth-child(5) {
-      .card-body {
-        background-color: $sitepad-red;
-        color: $font-white;
-        a.btn.btn-block.btn-outline-primary {
-          color: $font-white;
-          border-color: $border-white;
-        }
-      }
-    }
-  }
-}
-
 #front-page-featured {
   .card {
     background-color: transparent !important;
